@@ -5,7 +5,7 @@
     padding: 0;
 }
 /* shared syled */
-.learn_more{
+.learn_more_btn{
     text-decoration: none;
     display: inline-block;
     margin-top: 35px;
@@ -14,6 +14,16 @@
     color: #222;
     background-color: #ccc;
     border: 2px solid #333;
+}
+.para_text{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+a.learn_more{
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    display: inline-block;
+    margin-top: 24px;
 }
 /* style for header section */
 .header_menu{
@@ -26,10 +36,8 @@
 }
 .nav_left_content a{
     text-decoration: none;
-    color: rgb(13, 19, 33);
     font-size: 25px;
     font-weight: 600;
-    opacity: 0.7;
 }
 .nav_right_content button.resume_nav_btn{
     border: none;
@@ -61,8 +69,6 @@
 }
 .banner_content p.hero_desc{
     font-size: 16px;
-    color: rgb(13, 19, 33);
-    opacity: 0.88;
     width: 81.5%;
     margin: 0 auto;
 }
@@ -87,7 +93,7 @@ main.main_content{
 }
 .webdev_section{
     width: 1140px;
-    height: 1000px;
+    height: 1230px;
     margin: 0 auto;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -100,8 +106,10 @@ main.main_content{
     font-size: 27px;
 }
 .webdev_section_head_content p.webdev_head_desc{
-    color: rgb(13, 19, 33);
-    opacity: 0.88;
+    width: 96.8%;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: -5px;
 }
 .webdev_three_columns{
     width: 946px;
@@ -109,6 +117,7 @@ main.main_content{
     background-color: #ffffff;
 }
 .webdev_three_columns .webdev_column_one{
+    padding: 32px;
     display: flex;
 }
 .webdev_three_columns .webdev_column_one > .left_content{
@@ -121,17 +130,12 @@ main.main_content{
 .webdev_three_columns .webdev_column_one > .left_content h1.left_title{
     font-size: 20px;
 }
-.webdev_three_columns .webdev_column_one > .left_content p.left_desc{
-    font-size: 14px;
-    color: rgb(13, 19, 33);
-    opacity: 0.8;
-}
 .webdev_three_columns .webdev_column_one > .right_content img{
     margin-left: 92px;
 }
 
 .webdev_three_columns .webdev_column_two{
-    margin-top: 25px;
+    padding: 32px;
     display: flex;
 }
 .webdev_three_columns .webdev_column_two > .left_content{
@@ -147,13 +151,9 @@ main.main_content{
     font-size: 20px;
     width: 80%;
 }
-.webdev_three_columns .webdev_column_two > .right_content p.right_desc{
-    font-size: 14px;
-    color: rgb(13, 19, 33);
-    opacity: 0.88;
-}
+
 .webdev_three_columns .webdev_column_three{
-    margin-top: 25px;
+    padding: 32px;
     display: flex;
 }
 .webdev_three_columns .webdev_column_three > .left_content{
@@ -172,11 +172,6 @@ main.main_content{
     font-size: 20px;
     width: 80%;
 }
-.webdev_three_columns .webdev_column_three > .left_content p.left_desc{
-    font-size: 14px;
-    color: rgb(13, 19, 33);
-    opacity: 0.88;
-}
 
 /* inspiration section style */
 .inspiration_section{
@@ -192,12 +187,46 @@ main.main_content{
     font-size: 30px;
     margin-top: 0;
 }
-.inspiration_head_content p.inspiration_desc{
-    color: rgb(13, 19, 33);
-    opacity: 0.7;
-}
+
 .inspiration_section .embeded_video{
+    padding: 32px;
     width: 1140px;
     margin: 65px auto 0 auto;
     text-align: center;
+}
+
+/* style for target section */
+.target_section{
+    width: 1140px;
+    margin: 100px auto;
+    text-align: center;
+}
+.target_head_content{
+    width: 852px;
+    margin: 0 auto;
+}
+.target_head_content h1.target_title{
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.target_section .target_technologies{
+    width: 1140px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.target_section .target_technologies .learn_html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.target_section .target_technologies .learn_css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target_section .target_technologies .learn_js{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target_section .target_technologies .learn_html, .target_section .target_technologies .learn_css, .target_section .target_technologies .learn_js{
+    width: 22.31%;
+    padding: 40px;
+    text-align: left;
 }
