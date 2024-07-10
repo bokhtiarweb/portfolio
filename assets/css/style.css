@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* shared syled */
 .learn_more_btn{
     text-decoration: none;
@@ -301,7 +304,7 @@ main.main_content{
     color: #ccc;
     font-size: 15px;
 }
-form.mail_form input[type='email']{
+.mail_form input[type='email']{
     width: 450px;
     height: 38px;
     padding: 4px;
@@ -316,4 +319,16 @@ form.mail_form input[type='email']{
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+.footer_section{
+    width: 1420px;
+}
+.footer_content{
+    width: 1140px;
+    height: 70px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
