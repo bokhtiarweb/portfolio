@@ -49,7 +49,7 @@ a.learn_more{
 }
 /* hero section style */
 .header_section > .hero_banner_section{
-    max-width: 1440px;
+    width: 1420px;
     height: 652px;
     background-image: url('../images/Hero-bg.png');
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ a.learn_more{
     border-radius: 5px;
     width: 190px;
     height: 55px;
-    margin: 62px 0 0 0;
+    margin: 82px 0 0 0;
     background: rgb(13, 19, 33);
 }
 .banner_content button.contack_btn a{
@@ -92,9 +92,10 @@ main.main_content{
 }
 .webdev_section{
     width: 1140px;
-    height: 1230px;
-    margin: 0 auto;
-    background: rgba(13, 19, 33, 0.02);
+    height: 1100px;
+    margin: 50px auto;
+    padding: 80px 0;
+    background: rgb(13 19 33 / 5%)
 }
 .webdev_section .webdev_section_head_content{
     width: 946px;
@@ -112,7 +113,7 @@ main.main_content{
 }
 .webdev_three_columns{
     width: 946px;
-    margin: 86px auto 32px auto;
+    margin: 48px auto 32px auto;
     background-color: #ffffff;
 }
 .webdev_three_columns .webdev_column_one{
@@ -176,6 +177,8 @@ main.main_content{
 .inspiration_section{
     width: 1140px;
     margin: 65px auto;
+    padding-top: 15px;
+    background-color: #f5f5dc63;
 }
 .inspiration_head_content{
     width: 852px;
@@ -192,6 +195,8 @@ main.main_content{
     width: 1140px;
     margin: 65px auto 0 auto;
     text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
 }
 
 /* style for target section */
@@ -213,7 +218,7 @@ main.main_content{
     width: 1140px;
     margin-top: 55px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .target_section .target_technologies .learn_html{
     background: rgba(255, 76, 30, 0.05);
@@ -225,7 +230,7 @@ main.main_content{
     background: rgba(255, 223, 0, 0.05);
 }
 .target_section .target_technologies .learn_html, .target_section .target_technologies .learn_css, .target_section .target_technologies .learn_js{
-    width: 22.31%;
+    width: 24.31%;
     padding: 40px;
     text-align: left;
 }
@@ -244,8 +249,8 @@ main.main_content{
     margin-bottom: 0;
 }
 .backent_technologies{
-    width: 1100px;
-    margin: 55px auto;
+    width: 1140px;
+    margin-top: 48px;
 }
 .backent_technologies .learn_react, .backent_technologies .learn_nodejs, .backent_technologies .learn_mongodb{
     padding: 32px;
@@ -261,4 +266,54 @@ main.main_content{
 }
 .backent_technologies .learn_react .react_js, .backent_technologies .learn_nodejs .node_js, .backent_technologies .learn_mongodb .mongodb_js{
     margin-left: 30px;
+}
+/* style for support section */
+.support_section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.bg_img{
+    margin: 50px auto;
+    height: 350px;
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email_box{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text_content{
+    margin-bottom: 55px;
+}
+.text_content h2.mail_title{
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text_content p.mail_desc{
+    color: #ccc;
+    font-size: 15px;
+}
+form.mail_form input[type='email']{
+    width: 450px;
+    height: 38px;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+}
+.mail_form button.send_mail_btn{
+    width: 70px;
+    height: 50px;
+    padding: 4px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
