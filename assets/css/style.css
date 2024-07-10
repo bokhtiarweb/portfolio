@@ -21,7 +21,6 @@
 }
 a.learn_more{
     color: rgb(13, 19, 33);
-    margin-top: 24px;
     display: inline-block;
     margin-top: 24px;
 }
@@ -229,4 +228,37 @@ main.main_content{
     width: 22.31%;
     padding: 40px;
     text-align: left;
+}
+/* next target style */
+.next_target_section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nexttarget_head_content{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nexttarget_head_content h2.next_title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.backent_technologies{
+    width: 1100px;
+    margin: 55px auto;
+}
+.backent_technologies .learn_react, .backent_technologies .learn_nodejs, .backent_technologies .learn_mongodb{
+    padding: 32px;
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 10px;
+}
+
+.backent_technologies .learn_react img, .backent_technologies .learn_nodejs img, .backent_technologies .learn_mongodb img{
+    width: 94.78px;
+    height: 84.41px;
+    margin-top: 30px;
+}
+.backent_technologies .learn_react .react_js, .backent_technologies .learn_nodejs .node_js, .backent_technologies .learn_mongodb .mongodb_js{
+    margin-left: 30px;
 }
